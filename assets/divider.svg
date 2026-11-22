@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="14" viewBox="0 0 880 14" role="img" aria-label="Section Divider">
+  <title>Portal Section Divider</title>
+
+  <!-- Opaque theme-safe sage backdrop -->
+  <rect x="0" y="0" width="880" height="14" rx="0" ry="0" fill="#9AA59B" />
+
+  <!-- Clean horizontal hairline rule -->
+  <line x1="12" y1="7" x2="868" y2="7" stroke="#4B564C" stroke-width="1" />
+
+  <!-- Three centered 7x7px beveled sage squares -->
+  <g>
+    <!-- Left square -->
+    <rect x="422.5" y="3.5" width="7" height="7" rx="0" ry="0" fill="#A6B1A7" stroke="#2F3730" stroke-width="1" />
+    <line x1="423.5" y1="4.5" x2="428.5" y2="4.5" stroke="#C2CCC3" stroke-width="1" />
+    <line x1="423.5" y1="4.5" x2="423.5" y2="9.5" stroke="#C2CCC3" stroke-width="1" />
+
+    <!-- Center square -->
+    <rect x="436.5" y="3.5" width="7" height="7" rx="0" ry="0" fill="#A6B1A7" stroke="#2F3730" stroke-width="1" />
+    <line x1="437.5" y1="4.5" x2="442.5" y2="4.5" stroke="#C2CCC3" stroke-width="1" />
+    <line x1="437.5" y1="4.5" x2="437.5" y2="9.5" stroke="#C2CCC3" stroke-width="1" />
+
+    <!-- Right square -->
+    <rect x="450.5" y="3.5" width="7" height="7" rx="0" ry="0" fill="#A6B1A7" stroke="#2F3730" stroke-width="1" />
+    <line x1="451.5" y1="4.5" x2="456.5" y2="4.5" stroke="#C2CCC3" stroke-width="1" />
+    <line x1="451.5" y1="4.5" x2="451.5" y2="9.5" stroke="#C2CCC3" stroke-width="1" />
+  </g>
+
+  <!-- Crisp 1px outer border -->
+  <rect x="0.5" y="0.5" width="879" height="13" rx="0" ry="0" fill="none" stroke="#2F3730" stroke-width="1" />
+</svg>

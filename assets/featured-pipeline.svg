@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="135" viewBox="0 0 880 135" role="img" aria-label="Featured Build: Real-Time Fraud Detection Pipeline Architecture and Benchmarks">
+  <title>FEATURED BUILD :: REAL-TIME FRAUD DETECTION PIPELINE [STREAMING ML]</title>
+
+  <!-- Opaque main sage canvas -->
+  <rect x="0" y="0" width="880" height="135" rx="0" ry="0" fill="#9AA59B" />
+
+  <!-- Module Header Bar -->
+  <rect x="1" y="1" width="878" height="24" rx="0" ry="0" fill="#768378" />
+  <line x1="1" y1="1.5" x2="879" y2="1.5" stroke="#8C998E" stroke-width="1" />
+  <line x1="1" y1="25.5" x2="879" y2="25.5" stroke="#2F3730" stroke-width="1" />
+
+  <!-- Header Left Icon (crisp square bullet) + Title -->
+  <rect x="10" y="9" width="7" height="7" rx="0" ry="0" fill="#A6B1A7" stroke="#0B0F0C" stroke-width="1" />
+  <text
+    x="23"
+    y="16.5"
+    font-family="Verdana, Tahoma, Arial, sans-serif"
+    font-size="10.5"
+    font-weight="700"
+    fill="#0B0F0C"
+  >FEATURED BUILD :: REAL-TIME FRAUD DETECTION PIPELINE</text>
+
+  <!-- Header Right Tag -->
+  <text
+    x="869"
+    y="16.5"
+    text-anchor="end"
+    font-family="'Courier New', Courier, monospace"
+    font-size="10.5"
+    font-weight="700"
+    fill="#0B0F0C"
+  >[STREAMING ML]</text>
+
+  <!-- Left Half: Dark Inset Terminal Preview Box -->
+  <g>
+    <rect x="9" y="33" width="438" height="93" rx="0" ry="0" fill="#1A211C" stroke="#2F3730" stroke-width="1" />
+    <!-- Subtle inner inset bevel -->
+    <line x1="10" y1="34" x2="446" y2="34" stroke="#0F1410" stroke-width="1" />
+    <line x1="10" y1="34" x2="10" y2="125" stroke="#0F1410" stroke-width="1" />
+    <line x1="10" y1="125" x2="446" y2="125" stroke="#2D3830" stroke-width="1" />
+    <line x1="446" y1="34" x2="446" y2="125" stroke="#2D3830" stroke-width="1" />
+
+    <!-- Clean Monospace ASCII Architecture -->
+    <text x="22" y="54" font-family="'Courier New', Courier, monospace" font-size="11.5" fill="#A8C4AD" xml:space="preserve"><tspan fill="#CFE2D3" font-weight="700">[TXN EVENT]</tspan> ──&gt; FastAPI Ingestion</text>
+    <text x="22" y="73" font-family="'Courier New', Courier, monospace" font-size="11.5" fill="#A8C4AD" xml:space="preserve">                  ├──&gt; Redis Streams (Buffer)</text>
+    <text x="22" y="92" font-family="'Courier New', Courier, monospace" font-size="11.5" fill="#A8C4AD" xml:space="preserve">                  ├──&gt; ONNX Runtime (2.95ms p95)</text>
+    <text x="22" y="111" font-family="'Courier New', Courier, monospace" font-size="11.5" fill="#A8C4AD" xml:space="preserve">                  └──&gt; PostgreSQL <tspan fill="#CFE2D3" font-weight="700">[PERSISTED]</tspan></text>
+  </g>
+
+  <!-- Right Half: Inner Content Well (Specs Table) -->
+  <g>
+    <rect x="455" y="33" width="416" height="93" rx="0" ry="0" fill="#A6B1A7" stroke="#2F3730" stroke-width="1" />
+
+    <!-- Row Dividers -->
+    <line x1="456" y1="56.5" x2="870" y2="56.5" stroke="#859287" stroke-width="1" />
+    <line x1="456" y1="79.5" x2="870" y2="79.5" stroke="#859287" stroke-width="1" />
+    <line x1="456" y1="102.5" x2="870" y2="102.5" stroke="#859287" stroke-width="1" />
+
+    <!-- Spec Row 1 -->
+    <text x="466" y="48.5" font-family="'Courier New', Courier, monospace" font-size="10.5" font-weight="700" fill="#2D362E">THROUGHPUT:</text>
+    <text x="554" y="48.5" font-family="'Courier New', Courier, monospace" font-size="11" font-weight="700" fill="#0B0F0C">572.9 req/s</text>
+
+    <!-- Spec Row 2 -->
+    <text x="466" y="71.5" font-family="'Courier New', Courier, monospace" font-size="10.5" font-weight="700" fill="#2D362E">LATENCY:</text>
+    <text x="554" y="71.5" font-family="'Courier New', Courier, monospace" font-size="11" font-weight="700" fill="#0B0F0C">2.95ms p95</text>
+
+    <!-- Spec Row 3 -->
+    <text x="466" y="94.5" font-family="'Courier New', Courier, monospace" font-size="10.5" font-weight="700" fill="#2D362E">STACK:</text>
+    <text x="554" y="94.5" font-family="'Courier New', Courier, monospace" font-size="10.5" fill="#121713">FastAPI · Redis · ONNX · Postgres · Docker</text>
+
+    <!-- Spec Row 4 -->
+    <text x="466" y="117.5" font-family="'Courier New', Courier, monospace" font-size="10.5" font-weight="700" fill="#2D362E">DEPLOY:</text>
+    <text x="554" y="117.5" font-family="'Courier New', Courier, monospace" font-size="10.5" fill="#121713">Docker Compose</text>
+  </g>
+
+  <!-- Crisp 1px outer border -->
+  <rect x="0.5" y="0.5" width="879" height="134" rx="0" ry="0" fill="none" stroke="#2F3730" stroke-width="1" />
+</svg>
