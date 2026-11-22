@@ -1,6 +1,33 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="880" height="135" viewBox="0 0 880 135" role="img" aria-label="Featured Build: Real-Time Fraud Detection Pipeline Architecture and Benchmarks">
   <title>FEATURED BUILD :: REAL-TIME FRAUD DETECTION PIPELINE [STREAMING ML]</title>
 
+  <style>
+    @keyframes stage-highlight {
+      0%, 100% { fill: #C9D1D9; }
+      15%, 35% { fill: #56D364; }
+    }
+    @keyframes status-pulse {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.3; }
+    }
+    @keyframes meter-bar {
+      0%, 100% { width: 88px; }
+      35% { width: 102px; }
+      70% { width: 94px; }
+    }
+    .stage-1 { animation: stage-highlight 3.2s ease-in-out infinite 0.0s; }
+    .stage-2 { animation: stage-highlight 3.2s ease-in-out infinite 0.75s; }
+    .stage-3 { animation: stage-highlight 3.2s ease-in-out infinite 1.5s; }
+    .stage-4 { animation: stage-highlight 3.2s ease-in-out infinite 2.25s; }
+    .led-dot { animation: status-pulse 1.8s ease-in-out infinite; }
+    .throughput-bar { animation: meter-bar 2.6s ease-in-out infinite; }
+    @media (prefers-reduced-motion: reduce) {
+      .stage-1, .stage-2, .stage-3, .stage-4, .led-dot, .throughput-bar {
+        animation: none !important;
+      }
+    }
+  </style>
+
   <!-- GitHub-native dark card canvas -->
   <rect x="0" y="0" width="880" height="135" fill="#161B22" />
 
@@ -9,7 +36,7 @@
   <line x1="1" y1="25.5" x2="879" y2="25.5" stroke="#30363D" stroke-width="1" />
 
   <!-- Header Left Icon + Title -->
-  <rect x="10" y="9.5" width="7" height="7" fill="#3FB950" />
+  <rect class="led-dot" x="10" y="9.5" width="7" height="7" fill="#3FB950" />
   <text
     x="23"
     y="16.5"
@@ -28,17 +55,23 @@
     font-size="10.5"
     font-weight="700"
     fill="#3FB950"
-  >[STREAMING ML]</text>
+  >[STREAMING ML · LIVE]</text>
 
   <!-- Left Half: Dark Inset Terminal Preview Box -->
   <g>
     <rect x="9" y="33" width="438" height="93" fill="#0D1117" stroke="#30363D" stroke-width="1" />
 
-    <!-- Clean Monospace ASCII Architecture -->
-    <text x="22" y="54" font-family="'Courier New', Courier, monospace" font-size="11.5" fill="#8B949E" xml:space="preserve"><tspan fill="#3FB950" font-weight="700">[TXN EVENT]</tspan> ──&gt; <tspan fill="#E6EDF3">FastAPI Ingestion</tspan></text>
-    <text x="22" y="73" font-family="'Courier New', Courier, monospace" font-size="11.5" fill="#8B949E" xml:space="preserve">                  ├──&gt; <tspan fill="#C9D1D9">Redis Streams (Buffer)</tspan></text>
-    <text x="22" y="92" font-family="'Courier New', Courier, monospace" font-size="11.5" fill="#8B949E" xml:space="preserve">                  ├──&gt; <tspan fill="#C9D1D9">ONNX Runtime (2.95ms p95)</tspan></text>
-    <text x="22" y="111" font-family="'Courier New', Courier, monospace" font-size="11.5" fill="#8B949E" xml:space="preserve">                  └──&gt; <tspan fill="#C9D1D9">PostgreSQL</tspan> <tspan fill="#3FB950" font-weight="700">[PERSISTED]</tspan></text>
+    <!-- Animated Stage Indicator LEDs on Left Margin -->
+    <rect class="stage-1" x="14" y="47" width="3" height="7" fill="#3FB950" />
+    <rect class="stage-2" x="14" y="66" width="3" height="7" fill="#21262D" />
+    <rect class="stage-3" x="14" y="85" width="3" height="7" fill="#21262D" />
+    <rect class="stage-4" x="14" y="104" width="3" height="7" fill="#21262D" />
+
+    <!-- Clean Monospace ASCII Architecture with sequential stage illumination -->
+    <text x="22" y="54" font-family="'Courier New', Courier, monospace" font-size="11.5" fill="#8B949E" xml:space="preserve"><tspan fill="#3FB950" font-weight="700">[TXN EVENT]</tspan> ──&gt; <tspan class="stage-1" fill="#E6EDF3" font-weight="700">FastAPI Ingestion</tspan></text>
+    <text x="22" y="73" font-family="'Courier New', Courier, monospace" font-size="11.5" fill="#8B949E" xml:space="preserve">                  ├──&gt; <tspan class="stage-2" fill="#C9D1D9">Redis Streams (Buffer)</tspan></text>
+    <text x="22" y="92" font-family="'Courier New', Courier, monospace" font-size="11.5" fill="#8B949E" xml:space="preserve">                  ├──&gt; <tspan class="stage-3" fill="#C9D1D9">ONNX Runtime (2.95ms p95)</tspan></text>
+    <text x="22" y="111" font-family="'Courier New', Courier, monospace" font-size="11.5" fill="#8B949E" xml:space="preserve">                  └──&gt; <tspan class="stage-4" fill="#C9D1D9">PostgreSQL</tspan> <tspan fill="#3FB950" font-weight="700">[PERSISTED]</tspan></text>
   </g>
 
   <!-- Right Half: Inner Content Well (Specs Table) -->
@@ -50,9 +83,11 @@
     <line x1="456" y1="79.5" x2="870" y2="79.5" stroke="#21262D" stroke-width="1" />
     <line x1="456" y1="102.5" x2="870" y2="102.5" stroke="#21262D" stroke-width="1" />
 
-    <!-- Spec Row 1 -->
+    <!-- Spec Row 1 + Animated Throughput Meter Bar -->
     <text x="466" y="48.5" font-family="'Courier New', Courier, monospace" font-size="10.5" font-weight="700" fill="#8B949E">THROUGHPUT:</text>
     <text x="558" y="48.5" font-family="'Courier New', Courier, monospace" font-size="11" font-weight="700" fill="#3FB950">572.9 req/s</text>
+    <rect x="748" y="41" width="110" height="7" fill="#161B22" stroke="#30363D" stroke-width="1" />
+    <rect class="throughput-bar" x="749" y="42" width="94" height="5" fill="#3FB950" />
 
     <!-- Spec Row 2 -->
     <text x="466" y="71.5" font-family="'Courier New', Courier, monospace" font-size="10.5" font-weight="700" fill="#8B949E">LATENCY:</text>

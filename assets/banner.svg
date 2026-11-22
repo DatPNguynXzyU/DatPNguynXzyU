@@ -1,5 +1,48 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="880" height="128" viewBox="0 0 880 128" role="img" aria-label="DatPNguynXzyU — GitHub Dark Portal Header">
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="128" viewBox="0 0 880 128" role="img" aria-label="DatPNguynXzyU — Animated GitHub Dark Portal Header">
   <title>DatPNguynXzyU — Software Engineer &amp; Systems Builder</title>
+
+  <style>
+    @keyframes pill-wave {
+      0%, 100% { fill: #21262D; }
+      25%, 55% { fill: #3FB950; }
+      40% { fill: #56D364; }
+    }
+    @keyframes led-blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.25; }
+    }
+    @keyframes cursor-blink {
+      0%, 49% { opacity: 1; }
+      50%, 100% { opacity: 0; }
+    }
+    @keyframes horizon-trace {
+      0% { stroke-dashoffset: 920; }
+      100% { stroke-dashoffset: -920; }
+    }
+    @keyframes emblem-pulse {
+      0%, 100% { stroke-opacity: 0.28; }
+      50% { stroke-opacity: 0.75; }
+    }
+    .pill-1 { animation: pill-wave 2.4s ease-in-out infinite 0.0s; }
+    .pill-2 { animation: pill-wave 2.4s ease-in-out infinite 0.22s; }
+    .pill-3 { animation: pill-wave 2.4s ease-in-out infinite 0.44s; }
+    .pill-4 { animation: pill-wave 2.4s ease-in-out infinite 0.66s; }
+    .pill-5 { animation: pill-wave 2.4s ease-in-out infinite 0.88s; }
+    .pill-6 { animation: pill-wave 2.4s ease-in-out infinite 1.10s; }
+    .led-live { animation: led-blink 2s ease-in-out infinite; }
+    .cursor-block { animation: cursor-blink 1.1s steps(1, end) infinite; }
+    .horizon-beam {
+      stroke-dasharray: 110 810;
+      animation: horizon-trace 4.5s linear infinite;
+    }
+    .emblem-inner { animation: emblem-pulse 3.2s ease-in-out infinite; }
+    @media (prefers-reduced-motion: reduce) {
+      .pill-1, .pill-2, .pill-3, .pill-4, .pill-5, .pill-6,
+      .led-live, .cursor-block, .horizon-beam, .emblem-inner {
+        animation: none !important;
+      }
+    }
+  </style>
 
   <!-- GitHub-native dark slate canvas -->
   <rect x="0" y="0" width="880" height="128" fill="#161B22" />
@@ -12,15 +55,24 @@
   <!-- Stepped architectural horizon bevel -->
   <polygon points="0,104 384,104 406,82 522,82 544,112 880,112 880,128 0,128" fill="#0D1117" />
   <polyline points="0,104 384,104 406,82 522,82 544,112 880,112" fill="none" stroke="#30363D" stroke-width="1.25" />
-  <polyline points="0,105.25 384.5,105.25 406.5,83.25 521.5,83.25 543.5,113.25 880,113.25" fill="none" stroke="#3FB950" stroke-opacity="0.35" stroke-width="1" />
+  <polyline points="0,105.25 384.5,105.25 406.5,83.25 521.5,83.25 543.5,113.25 880,113.25" fill="none" stroke="#3FB950" stroke-opacity="0.22" stroke-width="1" />
+
+  <!-- Animated emerald telemetry trace gliding along the stepped horizon -->
+  <polyline
+    class="horizon-beam"
+    points="0,104 384,104 406,82 522,82 544,112 880,112"
+    fill="none"
+    stroke="#3FB950"
+    stroke-width="1.75"
+  />
 
   <!-- Top crisp 1px highlight -->
   <line x1="1" y1="1.5" x2="879" y2="1.5" stroke="#30363D" stroke-width="1" />
 
   <!-- Subtle orthogonal portal emblem behind wordmark -->
-  <g opacity="0.35">
+  <g opacity="0.42">
     <rect x="14" y="16" width="56" height="56" fill="none" stroke="#30363D" stroke-width="1" />
-    <rect x="24" y="26" width="36" height="36" fill="none" stroke="#3FB950" stroke-opacity="0.5" stroke-width="1" />
+    <rect class="emblem-inner" x="24" y="26" width="36" height="36" fill="none" stroke="#3FB950" stroke-opacity="0.5" stroke-width="1" />
     <line x1="14" y1="44" x2="70" y2="44" stroke="#30363D" stroke-width="1" />
     <line x1="42" y1="16" x2="42" y2="72" stroke="#30363D" stroke-width="1" />
   </g>
@@ -48,17 +100,17 @@
     paint-order="stroke fill"
   >DatPNguynXzyU</text>
 
-  <!-- 6 tiny rectangular segmented indicator pills -->
+  <!-- 6 animated rectangular segmented indicator pills -->
   <g>
-    <rect x="306" y="54" width="8" height="5" fill="#3FB950" stroke="#30363D" stroke-width="1" />
-    <rect x="317" y="54" width="8" height="5" fill="#21262D" stroke="#30363D" stroke-width="1" />
-    <rect x="328" y="54" width="8" height="5" fill="#3FB950" stroke="#30363D" stroke-width="1" />
-    <rect x="339" y="54" width="8" height="5" fill="#21262D" stroke="#30363D" stroke-width="1" />
-    <rect x="350" y="54" width="8" height="5" fill="#3FB950" stroke="#30363D" stroke-width="1" />
-    <rect x="361" y="54" width="8" height="5" fill="#21262D" stroke="#30363D" stroke-width="1" />
+    <rect class="pill-1" x="306" y="54" width="8" height="5" fill="#3FB950" stroke="#30363D" stroke-width="1" />
+    <rect class="pill-2" x="317" y="54" width="8" height="5" fill="#21262D" stroke="#30363D" stroke-width="1" />
+    <rect class="pill-3" x="328" y="54" width="8" height="5" fill="#3FB950" stroke="#30363D" stroke-width="1" />
+    <rect class="pill-4" x="339" y="54" width="8" height="5" fill="#21262D" stroke="#30363D" stroke-width="1" />
+    <rect class="pill-5" x="350" y="54" width="8" height="5" fill="#3FB950" stroke="#30363D" stroke-width="1" />
+    <rect class="pill-6" x="361" y="54" width="8" height="5" fill="#21262D" stroke="#30363D" stroke-width="1" />
   </g>
 
-  <!-- 11px italic tagline beneath wordmark -->
+  <!-- 11px italic tagline beneath wordmark + blinking terminal cursor -->
   <text
     x="28"
     y="83"
@@ -66,10 +118,10 @@
     font-size="11"
     font-style="italic"
     fill="#8B949E"
-  >where systems meet execution // software engineer &amp; backend developer</text>
+  >where systems meet execution // software engineer &amp; backend developer<tspan class="cursor-block" font-style="normal" font-weight="700" fill="#3FB950"> _</tspan></text>
 
-  <!-- Bottom-left portal address stamp -->
-  <rect x="26" y="113" width="5" height="5" fill="#3FB950" />
+  <!-- Bottom-left portal address stamp with pulsing LED -->
+  <rect class="led-live" x="26" y="113" width="5" height="5" fill="#3FB950" />
   <text
     x="36"
     y="119"
@@ -83,7 +135,7 @@
   <g>
     <!-- Header bar -->
     <rect x="562" y="14" width="302" height="20" fill="#21262D" stroke="#30363D" stroke-width="1" />
-    <rect x="569" y="20.5" width="7" height="7" fill="#3FB950" stroke="#0D1117" stroke-width="1" />
+    <rect class="led-live" x="569" y="20.5" width="7" height="7" fill="#3FB950" stroke="#0D1117" stroke-width="1" />
     <text
       x="581"
       y="27.5"

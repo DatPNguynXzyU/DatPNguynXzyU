@@ -1,12 +1,25 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="880" height="14" viewBox="0 0 880 14" role="img" aria-label="Section Divider">
   <title>Portal Section Divider</title>
 
+  <style>
+    @keyframes node-ping {
+      0%, 100% { fill: #161B22; }
+      33% { fill: #3FB950; }
+    }
+    .node-1 { animation: node-ping 2.4s ease-in-out infinite 0.0s; }
+    .node-2 { animation: node-ping 2.4s ease-in-out infinite 0.4s; }
+    .node-3 { animation: node-ping 2.4s ease-in-out infinite 0.8s; }
+    @media (prefers-reduced-motion: reduce) {
+      .node-1, .node-2, .node-3 { animation: none !important; }
+    }
+  </style>
+
   <!-- Clean horizontal hairline rule matching GitHub borders -->
   <line x1="0" y1="7" x2="416" y2="7" stroke="#30363D" stroke-width="1" />
   <line x1="464" y1="7" x2="880" y2="7" stroke="#30363D" stroke-width="1" />
 
-  <!-- Three centered 7x7px nodes -->
-  <rect x="422.5" y="3.5" width="7" height="7" fill="#161B22" stroke="#30363D" stroke-width="1" />
-  <rect x="436.5" y="3.5" width="7" height="7" fill="#3FB950" stroke="#30363D" stroke-width="1" />
-  <rect x="450.5" y="3.5" width="7" height="7" fill="#161B22" stroke="#30363D" stroke-width="1" />
+  <!-- Three centered 7x7px animated telemetry nodes -->
+  <rect class="node-1" x="422.5" y="3.5" width="7" height="7" fill="#161B22" stroke="#30363D" stroke-width="1" />
+  <rect class="node-2" x="436.5" y="3.5" width="7" height="7" fill="#3FB950" stroke="#30363D" stroke-width="1" />
+  <rect class="node-3" x="450.5" y="3.5" width="7" height="7" fill="#161B22" stroke="#30363D" stroke-width="1" />
 </svg>
