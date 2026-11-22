@@ -1,39 +1,39 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="880" height="128" viewBox="0 0 880 128" role="img" aria-label="DatPNguynXzyU — Year-2000 Sage-Olive Community Portal Header">
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="128" viewBox="0 0 880 128" role="img" aria-label="DatPNguynXzyU — GitHub Dark Portal Header">
   <title>DatPNguynXzyU — Software Engineer &amp; Systems Builder</title>
 
-  <!-- Opaque theme-safe sage canvas -->
-  <rect x="0" y="0" width="880" height="128" rx="0" ry="0" fill="#9AA59B" />
+  <!-- GitHub-native dark slate canvas -->
+  <rect x="0" y="0" width="880" height="128" fill="#161B22" />
 
-  <!-- Subtle diagonal & curved tonal sage bands -->
-  <path d="M250 0 H880 V96 C700 72 520 50 342 44 C296 42 268 20 250 0 Z" fill="#A8B3A9" />
-  <path d="M0 0 H322 C288 38 260 78 214 128 H0 Z" fill="#859287" />
-  <polygon points="326,0 444,0 392,128 274,128" fill="#859287" fill-opacity="0.30" />
+  <!-- Subtle diagonal & architectural tonal bands matching GitHub dark UI -->
+  <path d="M250 0 H880 V96 C700 72 520 50 342 44 C296 42 268 20 250 0 Z" fill="#1C2128" />
+  <path d="M0 0 H322 C288 38 260 78 214 128 H0 Z" fill="#0D1117" fill-opacity="0.65" />
+  <polygon points="326,0 444,0 392,128 274,128" fill="#21262D" fill-opacity="0.55" />
 
-  <!-- Classic Year-2000 stepped architectural horizon bevel -->
-  <polygon points="0,104 384,104 406,82 522,82 544,112 880,112 880,128 0,128" fill="#9AA59B" />
-  <polyline points="0,104 384,104 406,82 522,82 544,112 880,112" fill="none" stroke="#2F3730" stroke-width="1" />
-  <polyline points="0,105 384.5,105 406.5,83 521.5,83 543.5,113 880,113" fill="none" stroke="#BAC4BB" stroke-opacity="0.7" stroke-width="1" />
+  <!-- Stepped architectural horizon bevel -->
+  <polygon points="0,104 384,104 406,82 522,82 544,112 880,112 880,128 0,128" fill="#0D1117" />
+  <polyline points="0,104 384,104 406,82 522,82 544,112 880,112" fill="none" stroke="#30363D" stroke-width="1.25" />
+  <polyline points="0,105.25 384.5,105.25 406.5,83.25 521.5,83.25 543.5,113.25 880,113.25" fill="none" stroke="#3FB950" stroke-opacity="0.35" stroke-width="1" />
 
   <!-- Top crisp 1px highlight -->
-  <line x1="1" y1="1.5" x2="879" y2="1.5" stroke="#BAC4BB" stroke-opacity="0.75" stroke-width="1" />
+  <line x1="1" y1="1.5" x2="879" y2="1.5" stroke="#30363D" stroke-width="1" />
 
-  <!-- Subtle orthogonal portal emblem behind wordmark (zero rounded corners) -->
-  <g opacity="0.24">
-    <rect x="14" y="16" width="56" height="56" rx="0" ry="0" fill="none" stroke="#2F3730" stroke-width="1" />
-    <rect x="24" y="26" width="36" height="36" rx="0" ry="0" fill="none" stroke="#4B564C" stroke-width="1" />
-    <line x1="14" y1="44" x2="70" y2="44" stroke="#2F3730" stroke-width="1" />
-    <line x1="42" y1="16" x2="42" y2="72" stroke="#2F3730" stroke-width="1" />
+  <!-- Subtle orthogonal portal emblem behind wordmark -->
+  <g opacity="0.35">
+    <rect x="14" y="16" width="56" height="56" fill="none" stroke="#30363D" stroke-width="1" />
+    <rect x="24" y="26" width="36" height="36" fill="none" stroke="#3FB950" stroke-opacity="0.5" stroke-width="1" />
+    <line x1="14" y1="44" x2="70" y2="44" stroke="#30363D" stroke-width="1" />
+    <line x1="42" y1="16" x2="42" y2="72" stroke="#30363D" stroke-width="1" />
   </g>
 
-  <!-- Retro outlined wordmark with hard 1.5px classic pixel shadow -->
+  <!-- Retro outlined wordmark with hard pixel shadow -->
   <text
-    x="27.5"
-    y="61.5"
+    x="28"
+    y="62"
     font-family="Verdana, Tahoma, Arial, sans-serif"
     font-size="30"
     font-weight="700"
     letter-spacing="-0.6"
-    fill="#2F3730"
+    fill="#0D1117"
   >DatPNguynXzyU</text>
   <text
     x="26"
@@ -42,56 +42,55 @@
     font-size="30"
     font-weight="700"
     letter-spacing="-0.6"
-    fill="#D2DCD3"
-    stroke="#1A211B"
+    fill="#E6EDF3"
+    stroke="#0D1117"
     stroke-width="1.5"
     paint-order="stroke fill"
   >DatPNguynXzyU</text>
 
-  <!-- 6 tiny rectangular segmented indicator pills (8x5px, alternating #4B564C and #A6B1A7) -->
+  <!-- 6 tiny rectangular segmented indicator pills -->
   <g>
-    <rect x="306" y="54" width="8" height="5" rx="0" ry="0" fill="#4B564C" stroke="#2F3730" stroke-width="1" />
-    <rect x="317" y="54" width="8" height="5" rx="0" ry="0" fill="#A6B1A7" stroke="#2F3730" stroke-width="1" />
-    <rect x="328" y="54" width="8" height="5" rx="0" ry="0" fill="#4B564C" stroke="#2F3730" stroke-width="1" />
-    <rect x="339" y="54" width="8" height="5" rx="0" ry="0" fill="#A6B1A7" stroke="#2F3730" stroke-width="1" />
-    <rect x="350" y="54" width="8" height="5" rx="0" ry="0" fill="#4B564C" stroke="#2F3730" stroke-width="1" />
-    <rect x="361" y="54" width="8" height="5" rx="0" ry="0" fill="#A6B1A7" stroke="#2F3730" stroke-width="1" />
+    <rect x="306" y="54" width="8" height="5" fill="#3FB950" stroke="#30363D" stroke-width="1" />
+    <rect x="317" y="54" width="8" height="5" fill="#21262D" stroke="#30363D" stroke-width="1" />
+    <rect x="328" y="54" width="8" height="5" fill="#3FB950" stroke="#30363D" stroke-width="1" />
+    <rect x="339" y="54" width="8" height="5" fill="#21262D" stroke="#30363D" stroke-width="1" />
+    <rect x="350" y="54" width="8" height="5" fill="#3FB950" stroke="#30363D" stroke-width="1" />
+    <rect x="361" y="54" width="8" height="5" fill="#21262D" stroke="#30363D" stroke-width="1" />
   </g>
 
   <!-- 11px italic tagline beneath wordmark -->
   <text
     x="28"
-    y="84"
+    y="83"
     font-family="Verdana, Tahoma, Arial, sans-serif"
     font-size="11"
     font-style="italic"
-    fill="#0B0F0C"
-  >where systems meet execution // software engineer &amp; systems builder</text>
+    fill="#8B949E"
+  >where systems meet execution // software engineer &amp; backend developer</text>
 
   <!-- Bottom-left portal address stamp -->
-  <rect x="26" y="113" width="5" height="5" rx="0" ry="0" fill="#4B564C" stroke="#2F3730" stroke-width="1" />
+  <rect x="26" y="113" width="5" height="5" fill="#3FB950" />
   <text
     x="36"
     y="119"
     font-family="'Courier New', Courier, monospace"
     font-size="9.5"
     font-weight="700"
-    fill="#2D362E"
+    fill="#8B949E"
   >NODE://GITHUB.COM/DATPNGUYNXZYU</text>
 
   <!-- Right-side compact inset telemetry box -->
   <g>
     <!-- Header bar -->
-    <rect x="578" y="14" width="286" height="20" rx="0" ry="0" fill="#768378" stroke="#2F3730" stroke-width="1" />
-    <line x1="579" y1="15.5" x2="863" y2="15.5" stroke="#8C998E" stroke-width="1" />
-    <rect x="585" y="20.5" width="7" height="7" rx="0" ry="0" fill="#A6B1A7" stroke="#0B0F0C" stroke-width="1" />
+    <rect x="562" y="14" width="302" height="20" fill="#21262D" stroke="#30363D" stroke-width="1" />
+    <rect x="569" y="20.5" width="7" height="7" fill="#3FB950" stroke="#0D1117" stroke-width="1" />
     <text
-      x="597"
+      x="581"
       y="27.5"
       font-family="Verdana, Tahoma, Arial, sans-serif"
       font-size="9.5"
       font-weight="700"
-      fill="#0B0F0C"
+      fill="#E6EDF3"
     >OPERATOR TELEMETRY</text>
     <text
       x="856"
@@ -100,31 +99,31 @@
       font-family="'Courier New', Courier, monospace"
       font-size="9"
       font-weight="700"
-      fill="#0B0F0C"
+      fill="#3FB950"
     >[SYS::OK]</text>
 
     <!-- Body well -->
-    <rect x="578" y="34" width="286" height="79" rx="0" ry="0" fill="#A6B1A7" stroke="#2F3730" stroke-width="1" />
+    <rect x="562" y="34" width="302" height="79" fill="#0D1117" stroke="#30363D" stroke-width="1" />
 
     <!-- Subtle hairline row dividers -->
-    <line x1="579" y1="53.5" x2="863" y2="53.5" stroke="#8C998E" stroke-width="1" />
-    <line x1="579" y1="73.5" x2="863" y2="73.5" stroke="#8C998E" stroke-width="1" />
-    <line x1="579" y1="93.5" x2="863" y2="93.5" stroke="#8C998E" stroke-width="1" />
+    <line x1="563" y1="53.5" x2="863" y2="53.5" stroke="#21262D" stroke-width="1" />
+    <line x1="563" y1="73.5" x2="863" y2="73.5" stroke="#21262D" stroke-width="1" />
+    <line x1="563" y1="93.5" x2="863" y2="93.5" stroke="#21262D" stroke-width="1" />
 
     <!-- Telemetry rows -->
-    <text x="588" y="47.5" font-family="'Courier New', Courier, monospace" font-size="11" font-weight="700" fill="#2D362E">OPERATOR:</text>
-    <text x="656" y="47.5" font-family="'Courier New', Courier, monospace" font-size="11" font-weight="700" fill="#0B0F0C">Pham Nguyen Tuan Dat</text>
+    <text x="572" y="47.5" font-family="'Courier New', Courier, monospace" font-size="11" font-weight="700" fill="#8B949E">OPERATOR:</text>
+    <text x="642" y="47.5" font-family="'Courier New', Courier, monospace" font-size="11" font-weight="700" fill="#E6EDF3">Pham Nguyen Tuan Dat</text>
 
-    <text x="588" y="67.5" font-family="'Courier New', Courier, monospace" font-size="11" font-weight="700" fill="#2D362E">BASE:</text>
-    <text x="656" y="67.5" font-family="'Courier New', Courier, monospace" font-size="11" fill="#121713">Ho Chi Minh City, VN</text>
+    <text x="572" y="67.5" font-family="'Courier New', Courier, monospace" font-size="11" font-weight="700" fill="#8B949E">BASE:</text>
+    <text x="642" y="67.5" font-family="'Courier New', Courier, monospace" font-size="11" fill="#C9D1D9">Ho Chi Minh City, VN</text>
 
-    <text x="588" y="87.5" font-family="'Courier New', Courier, monospace" font-size="11" font-weight="700" fill="#2D362E">EDU:</text>
-    <text x="656" y="87.5" font-family="'Courier New', Courier, monospace" font-size="11" fill="#121713">HUTECH // CS-IT</text>
+    <text x="572" y="87.5" font-family="'Courier New', Courier, monospace" font-size="11" font-weight="700" fill="#8B949E">EDU:</text>
+    <text x="642" y="87.5" font-family="'Courier New', Courier, monospace" font-size="11" fill="#C9D1D9">HUTECH CS '27 (GPA 3.25)</text>
 
-    <text x="588" y="107" font-family="'Courier New', Courier, monospace" font-size="11" font-weight="700" fill="#2D362E">STATUS:</text>
-    <text x="656" y="107" font-family="'Courier New', Courier, monospace" font-size="11" font-weight="700" fill="#0B0F0C">[OPEN TO WORK]</text>
+    <text x="572" y="107" font-family="'Courier New', Courier, monospace" font-size="11" font-weight="700" fill="#8B949E">STATUS:</text>
+    <text x="642" y="107" font-family="'Courier New', Courier, monospace" font-size="11" font-weight="700" fill="#3FB950">[OPEN TO WORK · B2 ENG]</text>
   </g>
 
   <!-- Crisp 1px outer border -->
-  <rect x="0.5" y="0.5" width="879" height="127" rx="0" ry="0" fill="none" stroke="#2F3730" stroke-width="1" />
+  <rect x="0.5" y="0.5" width="879" height="127" fill="none" stroke="#30363D" stroke-width="1" />
 </svg>
